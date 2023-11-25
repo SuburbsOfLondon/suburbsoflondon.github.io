@@ -10,7 +10,7 @@ title: Suburbs of London Photography
 description: > # this means to ignore newlines until "baseurl:"
   A place where I share film photography I have take, developed and scanned myself.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: " https://suburbsoflondon.github.io/" # the base hostname & protocol for your site
+url: "https://suburbsoflondon.github.io/" # the base hostname & protocol for your site
 
 # Markdown settings
 markdown: kramdown
