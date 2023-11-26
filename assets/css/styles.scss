@@ -1,0 +1,48 @@
+
+//head##
+.SOLLogo{
+  max-width: 40%;
+}
+
+//photo page##
+
+.description{
+  margin-left: 1em;
+}
+
+@media screen and (orientation: portrait) {
+//.column {
+    //float: left;
+    //padding: 10px;
+    //height: 300px; /* Should be removed. Only for demonstration */
+//  }
+
+//.left, .right {
+//    width: 12%;
+//  }
+  
+//.middle {
+//    width: 76%;
+//  }  
+
+.photo{         
+    max-width: 100%;
+ }
+ 
+}
+
+@media screen and (orientation: landscape) {
+  .both {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+  } 
+  .photo{         
+    width: 65%;
+    height: auto;
+    display: flex;
+ }
+ .description{
+  flex: 1;
+ }
+}
