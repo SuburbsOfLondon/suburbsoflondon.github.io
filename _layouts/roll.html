@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div>
+    <h2>{{ page.title | replace: '-', ' ' }}</h2>  
+    <ul>        
+        {% assign rollPhotos = site.photos | where: roll, page.title %}
+        {% for photo in rollPhotos %}
+          <li>
+            <a href="{{ photo.url }}">{{ photo.title }}</a>
+          </li>          
+        {% endfor %}
+      </ul>
+  </div>

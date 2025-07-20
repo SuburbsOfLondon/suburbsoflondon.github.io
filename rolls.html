@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div>
+    <h2 class="h2">Rolls</h2> 
+    <ul>        
+        {% assign rolls = site.rolls %}
+        {% for roll in rolls %}
+          <li>
+            <a href="{{ roll.url }}">{{ roll.title }}</a>
+          </li>          
+        {% endfor %}
+      </ul>
+</div>

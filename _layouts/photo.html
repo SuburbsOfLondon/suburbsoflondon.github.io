@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div>
-    <h2>{{ page.title | replace: '-', ' ' }}</h2>  
+    <h2 class="h2">{{ page.title | replace: '-', ' ' | capitalize }}</h2>  
     <div class="both">       
-      <img src="/assets/images/{{ page.title }}.jpg" alt="{{ page.title }}" class="photo">
+      <img src="/assets/images/rolls/{{ page.roll }}/{{ page.title }}.jpg" alt="{{ page.title }}" class="photo">
       <p class = "description">{{ page.description }}</p>
+      {{ content }}
     </div> 
   </div>
   

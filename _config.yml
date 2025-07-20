@@ -36,4 +36,20 @@ plugins:
 collections:
   photos:
     output: true
+    
+  rolls:
+    output: true
   
+defaults:
+  - scope:
+      path: ""
+      type: "photos"
+    values:        
+      description: no description
+      layout: photo
+  - scope:
+      path: ""
+      type: "rolls"
+    values:
+      description: no description
+      layout: roll

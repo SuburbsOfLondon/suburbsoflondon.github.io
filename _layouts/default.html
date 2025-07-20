@@ -4,17 +4,23 @@
   {% include head.html %}
 
   <body>
-
     <main class="main" aria-label="Content">
+      <div class="header-container">
+        <div class="logo">
+          <a href="\index.html"><img src="/assets/images/SOL-Logo.png" class="SOLLogo"></a>
+        </div>
+        <div class="links">
+          <a href="\rolls">Rolls</a>
+          <a href="">Blog</a>
+        </div>
+      </div>
+      <div class="container body-container">
+        {{ content }}
+      </div>
       
-        
-      <a href="\index.html"><img src="/assets/images/SOL-Logo.png" class="SOLLogo"></img> </a>
-      </main>
-        
-         
-      {{ content }}
     </main>
-
+      
   </body>
+  
 
 </html>
