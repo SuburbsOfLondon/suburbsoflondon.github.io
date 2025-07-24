@@ -2,6 +2,17 @@
 
 - add 'my favourites' to index
 
+- add breadcrumps to rolls and images
+
+- make rolls list look nicer, add highlights
+
+- add 'next'/'previous' to images
+
+-phone
+    padding on logo
+    fix navbar
+    darkmode?
+
 - create 'digit' template and add images
 
 - create blog template & add blog
