@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div>
-    <h2>{{ page.title | replace: '-', ' ' }}</h2>  
+    <h2>{{ page.title | replace: '-', ' ' | capitalize }}</h2>  
     <ul>        
         {% assign rollPhotos = site.photos | where: roll, page.title %}
         {% for photo in rollPhotos %}
