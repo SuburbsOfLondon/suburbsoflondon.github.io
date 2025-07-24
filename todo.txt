@@ -1,0 +1,7 @@
+- get photos from 3rd party source and embed
+
+- add 'my favourites' to index
+
+- create 'digit' template and add images
+
+- create blog template & add blog

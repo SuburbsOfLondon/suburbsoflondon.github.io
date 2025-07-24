@@ -34,6 +34,13 @@ body {
   font-size: 29px;
 }
 
+footer {
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 @media screen and (orientation: portrait) { //phone
 .photo{         
     max-width: 100%;
