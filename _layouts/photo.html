@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-
+{% assign roll = site.rolls | where: "title", page.roll | first %}
 <div>
     <h2 class="h2">{{ page.title | replace: '-', ' ' | capitalize }}</h2>  
     <div class="both">       
-      <img src="/assets/images/rolls/{{ page.roll }}/{{ page.title }}.jpg" alt="{{ page.title }}" class="photo">
+      <a data-flickr-embed="false" href="{{roll.flickr-href}}" title="{{page.title}}">
+        <img src="{{page.flickr-img}}" class="photo" alt="{{page.title}}"/>
+    </a>
       <p class = "description">{{ page.description }}</p>
       {{ content }}
     </div> 
