@@ -27,6 +27,8 @@ exclude:
   - README.md
   - CNAME
   - assets/sass
+  - todo.txt
+  - create-roll.rb
 
 # Plugin settings
 plugins:

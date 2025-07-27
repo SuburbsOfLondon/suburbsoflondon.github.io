@@ -3,11 +3,14 @@ layout: default
 ---
 
 <div>
-    <h2>{{ page.title | replace: '-', ' ' | capitalize }}</h2>        
+    <h2>
+        <a class="breadcrumbs" href="/rolls">Rolls</a>
+         / {{ page.title | replace: '-', ' ' | capitalize }}
+    </h2>        
         {% assign rollPhotos = site.photos | where: roll, page.title %}
         
         {% for photo in rollPhotos %}
-            <a href="{{ photo.url }}">{{ photo.title | replace: '-', ' ' | capitalize }}</a>  
+            <a class="roll-links" href="{{ photo.url }}">{{ photo.title | replace: '-', ' ' | capitalize }}</a>  
             <br>        
         {% endfor %}
   </div>

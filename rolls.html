@@ -7,6 +7,6 @@ title: Rolls
         {% assign rolls = site.rolls %}
 
         {% for roll in rolls %}          
-            <a href="{{ roll.url }}">{{ roll.title | replace: '-', ' ' | capitalize}}</a>                   
+            <a class="roll-links" href="{{ roll.url }}">{{ roll.title | replace: '-', ' ' | capitalize}}</a>                   
         {% endfor %}
 </div>

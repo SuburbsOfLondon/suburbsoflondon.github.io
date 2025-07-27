@@ -4,7 +4,8 @@ layout: default
 {% assign roll = site.rolls | where: "title", page.roll | first %}
 <div>
     <h2 class="h2">
-      <a href="/rolls/{{page.roll}}">{{page.roll | replace: '-', ' ' | capitalize }}</a>
+      <a class="breadcrumbs" href="/rolls">Rolls</a>
+      <a class="breadcrumbs" href="/rolls/{{page.roll}}"> / {{page.roll | replace: '-', ' ' | capitalize }}</a>
        / {{ page.title | replace: '-', ' ' | capitalize }}
     </h2>  
     <div class="both">       

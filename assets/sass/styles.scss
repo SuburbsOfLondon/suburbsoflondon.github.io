@@ -26,12 +26,11 @@ body {
   //margin-left: 15px;
   float: right;
 }
-a {
-  color: #181818 !important;
+
+.navlinks a, .breadcrumbs, .roll-links{
+    color: #181818 !important;
 }
-a:hover{
-  color: #181818 !important;
-}
+
 .navlinks a {
   margin-right: 35px;
   text-decoration: none;
@@ -39,13 +38,18 @@ a:hover{
   font-size: 29px;
 }
 
+.navlinks, .breadcrumbs, .roll-links a:hover{
+  color: #181818 !important;
+}
+
 .prevnext-container{
   text-align: center;
 }
 .prevnext{
   color: #00BFFF !important;
-  text-decoration-line: underline !important;
+  //text-decoration-line: underline !important;
 }
+
 
 footer {
   text-align: center;
