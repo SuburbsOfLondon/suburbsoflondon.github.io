@@ -1,4 +1,5 @@
-- get photos from 3rd party source and embed
+- get photos from 3rd party source and embed - done
+    see if I can automate getting the urls from flickr
 
 - add 'my favourites' to index
 
@@ -6,13 +7,13 @@
 
 - make rolls list look nicer, add highlights
 
-- add 'next'/'previous' to images
+- add 'next'/'previous' to images - done
 
 -phone
     padding on logo
     fix navbar
     darkmode?
 
-- create 'digit' template and add images
+- create 'digital' template and add images
 
 - create blog template & add blog

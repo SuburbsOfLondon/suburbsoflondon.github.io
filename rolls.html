@@ -3,13 +3,10 @@ layout: default
 title: Rolls
 ---
 <div>
-    <h2 class="h2">Rolls</h2> 
-    <ul>        
+    <h2 class="h2">Rolls</h2>             
         {% assign rolls = site.rolls %}
-        {% for roll in rolls %}
-          <li>
-            <a href="{{ roll.url }}">{{ roll.title }}</a>
-          </li>          
+
+        {% for roll in rolls %}          
+            <a href="{{ roll.url }}">{{ roll.title | replace: '-', ' ' | capitalize}}</a>                   
         {% endfor %}
-      </ul>
 </div>
